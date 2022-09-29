@@ -62,8 +62,7 @@ scoreLabel = tkinter.Label(
     root, text="Press Enter to Play \n", font=('TimesNewRoman', 20))
 scoreLabel.pack()
 
-timeLabel = tkinter.Label(root, text="Time remaining: " +
-                          str(time_remaining), font=('TimesNewRoman', 20))
+timeLabel = tkinter.Label(root, text="Time remaining: " + str(time_remaining), font=('TimesNewRoman', 20))
 timeLabel.pack()
 
 label = tkinter.Label(root, borderwidth=3, font=('TimesNewRoman', 20, "bold"))
